@@ -1,4 +1,4 @@
-# Solis Design Studio Website Theme
+# Solis Website Theme
 
 An elegant, modern, and fully responsive website theme for creative studios, agencies, and professionals. This theme is designed to showcase portfolios, projects, and services with a visually stunning layout and smooth user experience.
 
