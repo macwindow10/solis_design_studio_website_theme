@@ -41,6 +41,7 @@ solis_pagesaved/
 
 ## Credits
 
+- Original Theme [Solis](https://solis.premiumthemes.in/design-studio/)
 - Fonts: [Google Fonts](https://fonts.google.com/)
 - Icons: [Font Awesome](https://fontawesome.com/)
 - Built with [Elementor](https://elementor.com/) and custom CSS.
