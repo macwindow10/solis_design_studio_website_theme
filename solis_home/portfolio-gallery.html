@@ -4395,7 +4395,7 @@
 					success: function (data) {
 						console.log(data);
 						var $grid = jQuery('.mk-grid-inner.clear');
-						grid.empty();
+						$grid.empty();
 						jQuery.each(data, function (i, item) {
 							var html = `
 								<article class="mk-grid-item mk-grid-item-wrap mk-item--full">
@@ -4405,6 +4405,7 @@
 										<div class="mk-portfolio-content-holder">
 											<div class="mk-portfolio-title-subtitle">
 											<h3 class="mk-portfolio-title">${item.title}</h3>
+											<div class="mk-portfolio-subtitle">${item.keyword1}<span>, </span>${item.keyword2}</div>
 											</div>
 										</div>
 										</a>

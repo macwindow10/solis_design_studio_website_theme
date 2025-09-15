@@ -1,44 +1,44 @@
 [
   {
-    "title": "Radiant Prism",
-    "keyword1": "Branding",
-    "keyword2": "Design",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-1-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-1.jpg"
-  },
-  {
-    "title": "Fusion Design",
+    "title": "Fortuna",
     "keyword1": "Design",
-    "keyword2": "Printing",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-2-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-2.jpg"
+    "keyword2": "Dubai",
+    "imageURLSmall": "wp-content/uploads/2025/06/fortuna-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/fortuna.PNG"
   },
   {
-    "title": "Scenic Motion",
+    "title": "Pavilion Mall",
     "keyword1": "Design",
-    "keyword2": "Printing",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-3-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-3.jpg"
+    "keyword2": "Stationery Set",
+    "imageURLSmall": "wp-content/uploads/2025/06/pavilion_mall-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/pavilion_mall-270x300.PNG"
   },
   {
-    "title": "Virtual Impact",
+    "title": "Prism",
     "keyword1": "Branding",
-    "keyword2": "Design",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-4-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-4.jpg"
+    "keyword2": "Social Media Campaign",
+    "imageURLSmall": "wp-content/uploads/2025/06/prism-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/prism-270x300.PNG"
   },
   {
-    "title": "Picture Motion",
+    "title": "Cocoecla",
     "keyword1": "Design",
-    "keyword2": "Printing",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-5-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-5.jpg"
+    "keyword2": "Menu",
+    "imageURLSmall": "wp-content/uploads/2025/06/cocoecla-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/cocoecla-270x300.PNG"
   },
   {
-    "title": "Neon Canvas Proper",
-    "keyword1": "Branding",
-    "keyword2": "Printing",
-    "imageURLSmall": "wp-content/uploads/2025/06/pf-v-6-270x300.jpg",
-    "imageURLLarge": "wp-content/uploads/2025/06/pf-v-6.jpg"
+    "title": "Nisa Serum",
+    "keyword1": "Design",
+    "keyword2": "Packaging",
+    "imageURLSmall": "wp-content/uploads/2025/06/nisa_serum-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/nisa_serum-270x300.PNG"
+  },
+  {
+    "title": "Alpine Gold",
+    "keyword1": "Design",
+    "keyword2": "Packaging",
+    "imageURLSmall": "wp-content/uploads/2025/06/alpine_gold-270x300.PNG",
+    "imageURLLarge": "wp-content/uploads/2025/06/alpine_gold-270x300.PNG"
   }
 ]
