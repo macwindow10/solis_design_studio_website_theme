@@ -12,6 +12,11 @@
 			contain-intrinsic-size: 3000px 1500px
 		}
 	</style>
+
+	<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min_ver=3.7.1.js" id="jquery-core-js"></script>
+	<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min_ver=3.4.1.js"
+		id="jquery-migrate-js"></script>
+
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel="alternate" type="application/rss+xml"
 		title="Spectrum Designs - Creative Agency and Portfolio &raquo; Feed" href="#" />
@@ -873,9 +878,7 @@
 	<link rel='stylesheet' id='elementor-gf-local-robotoslab-css'
 		href='/wp-content/uploads/elementor/google-fonts/css/robotoslab_ver=1751873781.css' type='text/css'
 		media='all' />
-	<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min_ver=3.7.1.js" id="jquery-core-js"></script>
-	<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min_ver=3.4.1.js"
-		id="jquery-migrate-js"></script>
+
 	<link rel="https://api.w.org/" href="https://solis.premiumthemes.in/wp-json/" />
 	<link rel="alternate" title="JSON" type="application/json"
 		href="https://solis.premiumthemes.in/wp-json/wp/v2/pages/2331" />
@@ -4276,11 +4279,6 @@
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/solis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 
-
-
-
-
-
 		<script type="text/javascript"
 			src="https://solis.premiumthemes.in/wp-content/plugins/solis-core/elements/js/custom-functions.min.js?ver=1.0.0"
 			id="mk-custom-functions-js"></script>
@@ -4365,33 +4363,65 @@
 		<script type="text/javascript"
 			src="https://solis.premiumthemes.in/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
 			id="wp-hooks-js"></script>
-		<script type="text/javascript"
-			src="https://solis.premiumthemes.in/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+		<script type="text/javascript" src="/wp-includes/js/dist/i18n.min_ver=5e580eb46a90c2b997e6.js"
 			id="wp-i18n-js"></script>
 		<script type="text/javascript" id="wp-i18n-js-after">
 			/* <![CDATA[ */
 			wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
 			/* ]]> */
 		</script>
-		<script type="text/javascript"
-			src="https://solis.premiumthemes.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1"
+		<script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/swv/js/index_ver=6.1.js"
 			id="swv-js"></script>
 		<script type="text/javascript" id="contact-form-7-js-before">
 			/* <![CDATA[ */
 			var wpcf7 = {
 				"api": {
-					"root": "https:\/\/solis.premiumthemes.in\/wp-json\/",
+					"root": "\/wp-json\/",
 					"namespace": "contact-form-7\/v1"
 				}
 			};
 			/* ]]> */
 		</script>
-		<script type="text/javascript"
-			src="https://solis.premiumthemes.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1"
+		<script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/js/index_ver=6.1.js"
 			id="contact-form-7-js"></script>
+
+
+		<script type="text/javascript">
+			jQuery.noConflict();
+			jQuery(document).ready(function () {
+				jQuery.ajax({
+					url: 'portfolio.json',
+					dataType: 'json',
+					success: function (data) {
+						console.log(data);
+						var $grid = jQuery('.mk-grid-inner.clear');
+						// grid.empty();
+						jQuery.each(data, function (i, item) {
+							var html = `
+								<article class="mk-grid-item mk-grid-item-wrap mk-item--full">
+									<div class="mk-portfolio-wrap content-position--over">
+									<div class="mk-portfolio-image">
+										<a class="mk-pf-modern-hover-link" href="#" target="_self">
+										<div class="mk-portfolio-content-holder">
+											<div class="mk-portfolio-title-subtitle">
+											<h3 class="mk-portfolio-title">${item.title}</h3>
+											</div>
+										</div>
+										</a>
+										<a href="#" class="mk-post-grid-image swm-anim" target="_self">
+										<img src="${item.imageURLLarge}" alt="${item.title}" />
+										</a>
+									</div>
+									</div>
+								</article>
+								`;
+							$grid.append(html);
+						});
+					}
+				});
+			});
+		</script>
 	</div> <!-- end #swm-page -->
 </body>
-
-<!-- Mirrored from solis.premiumthemes.in/portfolio-gallery/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Sep 2025 19:48:52 GMT -->
 
 </html>
