@@ -3,10 +3,20 @@
     "id": 1,
     "title": "Fortuna",
     "keyword1": "Design",
-    "keyword2": "Dubai",
+    "keyword2": "Logo & Branding",
     "imageURLSmall": "wp-content/uploads/2025/06/fortuna-270x300.PNG",
     "imageURLLarge": "wp-content/uploads/2025/06/fortuna.PNG",
-    "projectDetailURL": "project-detail.html?id=1"
+    "projectDetailURL": "project-detail.html?id=1",
+    "projectDetailDescription": "Fortuna is a comprehensive logo design and brand identity project created for a Dubai-based company. The project involves initial sketching, creative exploration, and professional logo formation. Its concept is rooted in the symbolism of a pinecone, representing growth, wisdom, and resilience. The design further draws inspiration from the Greek emblem of fortune, blending tradition with modern elegance.",
+    "projectDetailClient": "Fortuna",
+    "projectDetailDate": "June, 2025",
+    "projectDetailDuration": "3 Weeks",
+    "projectDetailImage1": "wp-content/uploads/2025/06/project-01-image-01.PNG",
+    "projectDetailImage2": "wp-content/uploads/2025/06/project-01-image-02.PNG",
+    "projectDetailImage3": "wp-content/uploads/2025/06/project-01-image-03.PNG",
+    "projectDetailImage4": "wp-content/uploads/2025/06/project-01-image-04.PNG",
+    "projectDetailImage5": "wp-content/uploads/2025/06/project-01-image-05.PNG",
+    "projectDetailImage6": "wp-content/uploads/2025/06/project-01-image-06.PNG"
   },
   {
     "id": 2,
@@ -15,7 +25,15 @@
     "keyword2": "Stationery Set",
     "imageURLSmall": "wp-content/uploads/2025/06/pavilion_mall-270x300.PNG",
     "imageURLLarge": "wp-content/uploads/2025/06/pavilion_mall-270x300.PNG",
-    "projectDetailURL": "project-detail.html?id=2"
+    "projectDetailURL": "project-detail.html?id=2",
+    "projectDetailDescription": "Pavilion Mall is a premier shopping destination located in the heart of the city. With a diverse range of retail outlets, dining options, and entertainment facilities, it offers a unique experience for visitors of all ages. The mall's modern architecture and vibrant atmosphere make it a popular choice for both locals and tourists alike.",
+    "projectDetailClient": "CDA Islamabad",
+    "projectDetailDate": "February, 2025",
+    "projectDetailDuration": "2 Weeks",
+    "projectDetailImage1": "wp-content/uploads/2025/06/project-01-image-01.PNG",
+    "projectDetailImage2": "wp-content/uploads/2025/06/project-01-image-02.PNG",
+    "projectDetailImage3": "wp-content/uploads/2025/06/project-01-image-03.PNG",
+    "projectDetailImage4": "wp-content/uploads/2025/06/project-01-image-04.PNG"
   },
   {
     "id": 3,
