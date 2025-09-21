@@ -4435,13 +4435,8 @@
 		</div>
 
 		<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/solis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-
-
-
-
-
+			{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/solis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+		</script>
 
 		<script type="text/javascript"
 			src="https://solis.premiumthemes.in/wp-content/plugins/solis-core/elements/js/custom-functions.min.js?ver=1.0.0"
@@ -4542,7 +4537,7 @@
 			/* <![CDATA[ */
 			var wpcf7 = {
 				"api": {
-					"root": "https:\/\/solis.premiumthemes.in\/wp-json\/",
+					"root": "https:\/\/wp-json\/",
 					"namespace": "contact-form-7\/v1"
 				}
 			};
@@ -4554,6 +4549,24 @@
 		<script type="text/javascript"
 			src="https://solis.premiumthemes.in/wp-includes/js/comment-reply.min.js?ver=6.8.1" id="comment-reply-js"
 			async="async" data-wp-strategy="async"></script>
+
+		<script type="text/javascript">
+			jQuery.noConflict();
+			jQuery(document).ready(function () {
+				jQuery.ajax({
+					url: 'portfolio.json',
+					dataType: 'json',
+					success: function (data) {
+						console.log(data);
+
+						jQuery.each(data, function (i, item) {
+							console.log(item);
+						});
+					}
+				});
+			});
+		</script>
+
 	</div> <!-- end #swm-page -->
 </body>
 
