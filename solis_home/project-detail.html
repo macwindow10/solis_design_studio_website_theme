@@ -2880,7 +2880,8 @@
 																		decoding="async" width="750" height="834"
 																		src="#" class="attachment-full size-full" alt=""
 																		srcset="#"
-																		sizes="(max-width: 750px) 100vw, 750px" /></div>
+																		sizes="auto, (max-width: 750px) 100vw, 750px" />
+																</div>
 															</div>
 															<div class="mk-carousel-slider-content-wrap">
 																<div class="mk-carousel-slider-content">
@@ -2909,9 +2910,8 @@
 															<div class="mk-carousel-slider-img-holder">
 																<div class="mk-carousel-slider-img"><img loading="lazy"
 																		decoding="async" width="750" height="834"
-																		src="/wp-content/uploads/2025/06/project-01-image-03.PNG"
-																		class="attachment-full size-full" alt=""
-																		srcset="/wp-content/uploads/2025/06/project-01-image-03.PNG 750w, /wp-content/uploads/2025/06/project-01-image-03.PNG 270w"
+																		src="#" class="attachment-full size-full" alt=""
+																		srcset="#"
 																		sizes="auto, (max-width: 750px) 100vw, 750px" />
 																</div>
 															</div>
@@ -2926,9 +2926,8 @@
 															<div class="mk-carousel-slider-img-holder">
 																<div class="mk-carousel-slider-img"><img loading="lazy"
 																		decoding="async" width="750" height="834"
-																		src="/wp-content/uploads/2025/06/project-01-image-04.PNG"
-																		class="attachment-full size-full" alt=""
-																		srcset="/wp-content/uploads/2025/06/project-01-image-04.PNG 750w, /wp-content/uploads/2025/06/project-01-image-04.PNG 270w"
+																		src="#" class="attachment-full size-full" alt=""
+																		srcset="#"
 																		sizes="auto, (max-width: 750px) 100vw, 750px" />
 																</div>
 															</div>
@@ -2943,9 +2942,8 @@
 															<div class="mk-carousel-slider-img-holder">
 																<div class="mk-carousel-slider-img"><img loading="lazy"
 																		decoding="async" width="750" height="834"
-																		src="/wp-content/uploads/2025/06/project-01-image-05.PNG"
-																		class="attachment-full size-full" alt=""
-																		srcset="/wp-content/uploads/2025/06/project-01-image-05.PNG 750w, /wp-content/uploads/2025/06/project-01-image-05.PNG 270w"
+																		src="#" class="attachment-full size-full" alt=""
+																		srcset="#"
 																		sizes="auto, (max-width: 750px) 100vw, 750px" />
 																</div>
 															</div>
@@ -2960,9 +2958,8 @@
 															<div class="mk-carousel-slider-img-holder">
 																<div class="mk-carousel-slider-img"><img loading="lazy"
 																		decoding="async" width="750" height="834"
-																		src="/wp-content/uploads/2025/06/project-01-image-06.PNG"
-																		class="attachment-full size-full" alt=""
-																		srcset="/wp-content/uploads/2025/06/project-01-image-06.PNG 750w, /wp-content/uploads/2025/06/project-01-image-06.PNG 270w"
+																		src="#" class="attachment-full size-full" alt=""
+																		srcset="#"
 																		sizes="auto, (max-width: 750px) 100vw, 750px" />
 																</div>
 															</div>
@@ -4561,7 +4558,9 @@
 								jQuery('.mk-carousel-slider-img img').each(function (index) {
 									var imgNum = index + 1;
 									var imgProp = 'projectDetailImage' + imgNum;
+									// console.log(imgProp);
 									if (item[imgProp]) {
+										// console.log(item[imgProp]);
 										jQuery(this).attr('src', item[imgProp]);
 										// srcset="/wp-content/uploads/2025/06/project-01-image-01.PNG 750w, /wp-content/uploads/2025/06/project-01-image-01.PNG 270w"
 										jQuery(this).attr('srcset', item[imgProp] + ' 750w, ' + item[imgProp] + ' 270w');
